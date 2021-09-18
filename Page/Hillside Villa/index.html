@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./image/LogoFooter.svg" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://kit.fontawesome.com/6d708c259b.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- ---------------- HEADER ------------------------------->
+
+    <div id="Header" class="Header">
+        <div class="row__header">
+            <div class="grid__header">
+                <div class="menu__header">
+                    <ul>
+                        <li id="myBtn">
+                            <img id="menu-not-hover" src="./icon/IconMenu3.svg" alt="">
+                            <img id="menu-hover" src="./icon/IconMenu2.svg" alt="">
+                        </li>
+                        <li><a href="">VILLA</a></li>
+                        <li><a href="">ABOUT US</a></li>
+                        <li><a href="">SERVICE</a></li>
+                    </ul>
+                </div>
+                <div class="logo__header">
+                    <img src="./image/LogoMenu.svg" alt="">
+                </div>
+                <div class="signin__header">
+                    <div><a id="open_Sign_in">SIGN IN</a></div>
+                    <div class="book__now__header"><button class="booknow-button booknow-button--large">BOOK NOW</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Header__scorll">
+        <div class="row__header__scorll">
+            <div class="grid__header__scorll">
+                <div class="menu__header__scorll">
+                    <ul>
+                        <li id="myBtn__scorll">
+                            <img id="menu-not-hover__scorll" src="./image/IconMenu.svg" alt="">
+                            <img id="menu-hover__scorll" src="./image/trangchu/Haivach.svg" alt="">
+                        </li>
+                        <li><a href="">VILLA</a></li>
+                        <li><a href="">ABOUT US</a></li>
+                        <li><a href="./Page/Services/index.html">SERVICE</a></li>
+                    </ul>
+                </div>
+                <div class="logo__header__scorll">
+                    <img src="./image/Logo.svg" alt="">
+                </div>
+                <div class="signin__header__scorll">
+                    <div><a id="open_Sign_in_two" style="cursor: pointer">SIGN IN</a></div>
+                    <div class="book__now__header__scorll"><button class="booknow-button__scorll booknow-button--large__scorll">BOOK NOW</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------- DIALOG MENU ------------------------------->
+    <div id="myModal" class="modal">
+        <div class="row__modal">
+            <div class="left__modal">
+                <div class="menu">
+                    <ul class="menu__1">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Villa</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Activities</a></li>
+                        <li><a href="">Events</a></li>
+                        <li><a href="">Contact & Location</a></li>
+                    </ul>
+                    <ul class="menu__2">
+                        <li><a href="">Terms</a></li>
+                        <li><a href="">Privacy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right__modal">
+                <div class="item__contact__menu__mp">
+                    <div>
+                        <img src="./icon/Mail.svg" alt="">
+                        <p>info@lavista.vn</p>
+                    </div>
+                    <div>
+                        <img src="./icon/Phone.svg" alt="">
+                        <p>+84 123 123 123 </p>
+                    </div>
+                </div>
+                <div class="item__contact__menu">
+                    <img src="./icon/Instagram.svg" alt="">
+                    <p>Instagram</p>
+                </div>
+                <div class="item__contact__menu">
+                    <img src="./icon/Facbook.svg" alt="">
+                    <p>Facebook</p>
+                </div>
+                <div class="item__contact__menu">
+                    <img src="./icon/Tripa.svg" alt="">
+                    <p>Tripadvisor</p>
+                </div>
+                <div class="close"><img src="./icon/IconCloseDialog.svg" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------- DIALOG SIGN IN ------------------------------->
+    <div id="Sign_in" class="Sign_in">
+        <div class="row_Sign_in">
+            <div class="left_Sign_in">
+                <img src="./image/LogoSignin.svg" alt="">
+                <img id="close_Sign_in" class="close_sign_in" src="./icon/closeSignIn.svg" alt="">
+            </div>
+            <div class="right_Sign_in">
+                <div class="title__Sign__in">
+                    <h1>Sign in</h1>
+                </div>
+                <div class="from_input_sign_in">
+                    <div class="item_input_sign_in">
+                        <input type="text" placeholder="Email or Member Number">
+                    </div>
+                    <div class="item_input_sign_in">
+                        <input type="password" placeholder="Password">
+                        <img class="icon_show_pass" src="./icon/IconShowPass.svg" alt="">
+                    </div>
+                    <div class="login_sign_in">
+                        <button>LOG IN</button>
+                    </div>
+                    <div class="create_account_sign_in">
+                        <button id="open_Join_us">CREATE ACCOUNT</button>
+                    </div>
+                    <div class="text_input_sign_in">
+                        <img src="./icon/keNgang.svg" alt="">
+                        <p>or log in with</p>
+                        <img src="./icon/keNgang.svg" alt="">
+                    </div>
+                    <div class="text_input_sign_in">
+                        <img src="./icon/IconGoogle.svg" alt="">
+                        <img src="./icon/IconMicrosoft.svg" alt="">
+                    </div>
+                    <div>
+                        <p>Forgot login or password?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------DIALOG JOIN US ----------------- -->
+    <div id="Join_us" class="Join_us">
+        <div class="row_Join_us">
+            <div class="left_Join_us">
+                <img src="./image/LogoSignin.svg" alt="">
+                <img id="close_Join_us" class="close_Join_us" src="./icon/closeSignIn.svg" alt="">
+            </div>
+            <div class="right_Join_us">
+                <div class="title__Join_us">
+                    <h1>Join us</h1>
+                </div>
+                <div class="from_input_Join_us">
+                    <div class="fist_last_name_Join_us">
+                        <input type="text" placeholder="First Name">
+                        <input type="text" placeholder="Last Name">
+                    </div>
+                    <div class="country_Join_us">
+                        <h1>COUNTRY /REGION</h1>
+                        <input type="text" value="Viet Nam">
+                    </div>
+                    <div class="input-1-Join_us">
+                        <input type="text" placeholder="ZIP Code">
+                    </div>
+                    <div class="input-select-Join_us">
+                        <select name="" id="">
+                        <option value="">
+                            +84
+                        </option>
+                    </select>
+                        <input type="text" placeholder="Mobile Phone (Optional)">
+                    </div>
+                    <div class="input-1-Join_us">
+                        <input type="text" placeholder="Email Address">
+                    </div>
+                    <div class="input-1-Join_us">
+                        <input type="text" placeholder="Password">
+                        <img class="icon_show_pass" src="./icon/IconShowPass.svg" alt="">
+                    </div>
+                    <div class="input-1-Join_us">
+                        <input type="text" placeholder="Password">
+                        <img class="icon_show_pass" src="./icon/IconShowPass.svg" alt="">
+                    </div>
+                    <div class="login_Join_us">
+                        <button>LOG IN</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./javascript/main.js"></script>
+    <!-- -----------------------anh bg--------------- -->
+    <div class="bg">
+        <img src="./image/hill/bg.png">
+        <div class="textgt">
+            <h1>Hillside Villa</h1>
+        </div>
+    </div>
+    <!-- -----------------------Rise--------------- -->
+    <div class="infor">
+        <img src="./image/hill/18.png">
+        <div class="rise">
+            <h2>Rises above the rest</h2>
+            <p>A modern and elegant home-away-from-home for families and friends, these 400sqm villas cover three floors. They include a private infinity pool, master king-sized ensuite bedroom. Positioned hilltop, the Hillside Villas enjoy a partial view
+                of the ocean as well as optimal privacy. <br> <br> This luxury villa is equipped with Wi-Fi and an Apple TV. A Bose sound system runs throughout the villa and includes speakers in every bedroom. While all rooms are designed to take advantage
+                of the delightful tropical breezes, the doors can be closed
+                 if you desire protection from the elements. </p>
+            <div class="book__now__header"><button class="booknow-button booknow-button--large">BOOK NOW</button></div>
+        </div>
+    </div>
+    <!-- -----------------------Rise--------------- -->
+    <div class="feature">
+        <h2>Room features</h2>
+        <table border="0" width="1250px" height="182px">
+            <tr>
+                <td>
+                    <div class="tv">
+                        <img src="./image/hill/wifi.svg">
+                        <p>Free Wifi</p>
+                </td>
+                </div>
+                <td>
+                    <div class="bar">
+                        <img src="./image/hill/bar.svg">
+                        <p>Mini bar</p>
+                </td>
+                </div>
+                <td>
+                    <div class="desk">
+                        <img src="./image/hill/desk.svg">
+                        <p>Work desk</p>
+                </td>
+                </div>
+                <td>
+                    <div class="ipod">
+                        <img src="./image/hill/ipod.svg">
+                        <p>Ipod docking station</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="ac">
+                        <img src="./image/hill/ac.svg">
+                        <p>Air conditioning</p>
+                </td>
+                </div>
+                <td>
+                    <div class="tv">
+                        <img src="./image/hill/tv .svg">
+                        <p>40-inch LCD smart TV</p>
+                </td>
+                </div>
+                <td>
+                    <div class="safe">
+                        <img src="./image/hill/safe.png">
+                        <p>In-room safe</p>
+                </td>
+                </div>
+                <td>
+                    <div class="smoke">
+                        <img src="./image/hill/smoke.svg">
+                        <p>Non-smoking room</p>
+                    </div>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <div class="door">
+                        <img src="./image/hill/door.svg">
+                        <p>Private balcony</p>
+                </td>
+                </div>
+                <td>
+                    <div class="bed">
+                        <img src="./image/hill/bed.svg">
+                        <p>King size</p>
+                </td>
+                </div>
+                <td>
+                    <div class="pp">
+                        <img src="./image/hill/pp.svg">
+                        <p>Up to 8 adults</p>
+                </td>
+                </div>
+                <td>
+                    <div class="sqm">
+                        <img src="./image/hill/sqm.svg">
+                        <p>U97 sqm / 1044 sqft </p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <!-- -----------------------Amenites and services--------------- -->
+    <div class="amen">
+        <h2>Amenites and services</h2>
+        <div class="text">
+            <table border="0" width="1141px" height="219px">
+                <ul>
+                    <tr>
+                        <td>
+                            <li>Twice-daily housekeeping service</li>
+                            <td>
+                                <li>“Sleep Well” turndown service</li>
+                    </tr>
+                    <tr>
+                        <td>
+                            <li>Complimentary internet access</li>
+                            <td>
+                                <li>TWG Tea Collection from Singapore</li>
+                    </tr>
+                    <tr>
+                        <td>
+                            <li>Nespresso Coffee and Organic Legend Revived coffee</li>
+                            <td>
+                                <li>Iron and ironing board (upon request)</li>
+                    </tr>
+                    <tr>
+                        <td>
+                            <li>24-hour room service</li>
+                            <td>
+                                <li>“Rainshower and bathtub</li>
+                    </tr>
+                    <tr>
+                        <td>
+                            <li>Luxury bathroom amenities</li>
+                            <td>
+                                <li>Living room and master bathroom</li>
+                    </tr>
+                </ul>
+
+
+            </table>
+        </div>
+    </div>
+    <!-- ---------------------EXPLORE LA VISTA------------- -->
+    <div class="ExploreVitas">
+        <div class="row__exploreVitas">
+            <div class="header__exploreVitas">
+                <div class="exploreVitas__header">
+                   
+                </div>
+                <div class="menu__explore">
+                    <div class="menu__explore__right">
+                        <img onclick="vitasPrev()" class="icon__frev__show" src="./icon/IconFrev.svg" alt="">
+                        <img class="icon__frev" src="./icon/IconFrevHidien.svg" alt="">
+                        <img onclick="vitasNext()" class="icon__next" src="./icon/IconNext.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="listVitas">
+                <div id="responsive" class="listVitas__show" style="transition-duration: 0ms;transform: translate3d(0px, 0px, 0px);">
+                    <div id="myImg1" class="listVitas__item">
+                        <img src="./IMAGE/anh1.png" alt="1">
+                        <div class="listVitas__item__hover"></div>
+                        <p>Living room</p>
+                    </div>
+                    <div id="myImg2" class="listVitas__item">
+                        <img src="./IMAGE/anh2.png" alt="2">
+                        <div class="listVitas__item__hover"></div>
+                        <p>Kitchen</p>
+                    </div>
+                    <div id="myImg3" class="listVitas__item">
+                        <img src="./IMAGE/anh3.png" alt="3">
+                        <div class="listVitas__item__hover"></div>
+                        <p>Bathroom</p>
+                    </div>
+                    <div id="myImg4" class="listVitas__item">
+                        <img src="./IMAGE/anh4.png" alt="1">
+                        <div class="listVitas__item__hover"></div>
+                        <p>Master bedroom</p>
+                    </div>
+                    <div id="myImg5" class="listVitas__item">
+                        <img src="./IMAGE/anh5.png" alt="1">
+                        <div class="listVitas__item__hover"></div>
+                        <p>Between bedroom</p>
+                    </div>
+                    <div id="myImg6" class="listVitas__item">
+                        <img src="./IMAGE/anh6.png" alt="1">
+                        <div class="listVitas__item__hover"></div>
+                        <p>Common space</p>
+                    </div>
+                    <div id="myImg7" class="listVitas__item">
+                        <img src="./IMAGE/anh7.png" alt="1">
+                        <div class="listVitas__item__hover"></div>
+                        <p>Porch view</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="ourzoom__modal">
+        <div class="close"><img id="close__ourzoom__modal" src="./icon/IconCloseDialog.svg" alt=""></div>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="./IMAGE/Background1.png" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="./IMAGE/Background2.png" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="./IMAGE/Background3.png" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="./IMAGE/Background4.png" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="./IMAGE/Background5.png" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="./IMAGE/Background6.png" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="./IMAGE/Background7.png" style="width:100%">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)"><img src="./icon/HightlighPrev.svg" alt=""></a>
+            <a class="next" onclick="plusSlides(1)"><img src="./icon/HightlightNext.svg" alt=""></a>
+        </div>
+    </div>
+
+
+    <!-- -------------------------FOOTER-------------------- -->
+    <div class="Footer">
+        <div class="row__footer">
+            <div class="footer__1">
+                <h1>Stay up date</h1>
+                <div class="from__input__footer">
+                    <input type="text" placeholder="First name">
+                    <input type="text" placeholder="Second name">
+                    <input type="text" placeholder="E-mail address ">
+                    <div class="checkbox__footer">
+                        <input type="checkbox">
+                        <label for="">By accepting this form, you except our
+						private policy </label>
+                    </div>
+                    <button class="brand-button--large">SEND</button>
+                </div>
+                <div class="contact__footer__1">
+                    <div class="item__contact__footer__1">
+                        <img src="./icon/Instagram.svg" alt="">
+                        <p>Instagram</p>
+                    </div>
+                    <div class="item__contact__footer__1">
+                        <img src="./image/fb.svg" alt="">
+                        <p>Facebook</p>
+                    </div>
+                    <div class="item__contact__footer__1">
+                        <img src="./image/tripa.svg" alt="">
+                        <p>Tripadvisor</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__2">
+                <div class="row__footer__2">
+                    <div class="item__footer__2__1">
+                        <div>
+                            <img src="./image/gmail.svg" alt="">
+                            <p>info@lavista.vn</p>
+                        </div>
+                        <div>
+                            <img src="./image/phone.svg" alt="">
+                            <p>+84 123 123 123 </p>
+                        </div>
+                    </div>
+                    <div class="item__footer__2__2">
+                        <a href="">Villa</a>
+                        <a href="">About us</a>
+                        <a href="">Service</a>
+                        <a href="">Contact & Direction</a>
+                    </div>
+                    <div class="item__footer__2__3">
+                        <a href="">Terms</a>
+                        <a href="">Privacy</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__3">
+                <div class="back__to__top">
+                    <img src="./image/trangchu/Back_to_top.svg" alt="">
+                    <div class="outer">
+                        <div id="scrollToTopBtn" class="inner rotate"><a>BACK TO TOP</a></div>
+                    </div>
+                </div>
+                <div class="back__to__top__logo">
+                    <img class="back__to__top__logo-ngoai" src="./image/LogoLaNgoai.svg" alt="">
+                    <img class="back__to__top__logo-trong" src="./image/LogoTrong.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

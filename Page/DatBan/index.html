@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- ---------------- HEADER ------------------------------->
+
+    <div id="Header" class="Header">
+        <div class="row__header">
+            <div class="grid__header">
+                <div class="menu__header">
+                    <ul>
+                        <li id="myBtn">
+                            <img id="menu-not-hover" src="./icon/IconMenu3.svg" alt="">
+                            <img id="menu-hover" src="./icon/IconMenu2.svg" alt="">
+                        </li>
+                        <li><a href="">VILLA</a></li>
+                        <li><a href="">ABOUT US</a></li>
+                        <li><a href="">SERVICE</a></li>
+                    </ul>
+                </div>
+                <div class="logo__header">
+                    <img src="./image/LogoMenu.svg" alt="">
+                </div>
+                <div class="signin__header">
+                    <div><a href="">SIGN IN</a></div>
+                    <div class="book__now__header"><button class="booknow-button booknow-button--large">BOOK NOW</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="Header__scorll">
+        <div class="row__header__scorll">
+            <div class="grid__header__scorll">
+                <div class="menu__header__scorll">
+                    <ul>
+                        <li id="myBtn__scorll">
+                            <img id="menu-not-hover__scorll" src="./icon/IconMenu3.svg" alt="">
+                            <img id="menu-hover__scorll" src="./icon/IconMenu2.svg" alt="">
+                        </li>
+                        <li><a href="">VILLA</a></li>
+                        <li><a href="">ABOUT US</a></li>
+                        <li><a href="">SERVICE</a></li>
+                    </ul>
+                </div>
+                <div class="logo__header__scorll">
+                    <img src="./image/LogoMenu.svg" alt="">
+                </div>
+                <div class="signin__header__scorll">
+                    <div><a href="">SIGN IN</a></div>
+                    <div class="book__now__header__scorll"><button class="booknow-button__scorll booknow-button--large__scorll">BOOK NOW</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------- DIALOG MENU ------------------------------->
+    <div id="myModal" class="modal">
+        <div class="row__modal">
+            <div class="left__modal">
+                <div class="menu">
+                    <ul class="menu__1">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Villa</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Activities</a></li>
+                        <li><a href="">Events</a></li>
+                        <li><a href="">Contact & Location</a></li>
+                    </ul>
+                    <ul class="menu__2">
+                        <li><a href="">Terms</a></li>
+                        <li><a href="">Privacy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right__modal">
+                <div class="item__contact__menu__mp">
+                    <div>
+                        <img src="./icon/Mail.svg" alt="">
+                        <p>info@lavista.vn</p>
+                    </div>
+                    <div>
+                        <img src="./icon/Phone.svg" alt="">
+                        <p>+84 123 123 123 </p>
+                    </div>
+                </div>
+                <div class="item__contact__menu">
+                    <img src="./icon/Instagram.svg" alt="">
+                    <p>Instagram</p>
+                </div>
+                <div class="item__contact__menu">
+                    <img src="./icon/Facbook.svg" alt="">
+                    <p>Facebook</p>
+                </div>
+                <div class="item__contact__menu">
+                    <img src="./icon/Tripa.svg" alt="">
+                    <p>Tripadvisor</p>
+                </div>
+                <div class="close"><img src="./icon/IconCloseDialog.svg" alt=""></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Activity Appointment -->
+    <div class="Activity">
+        <div class="row__Activity">
+            <div class="title__Activity">
+                <h1>Activity Appointment</h1>
+            </div>
+            <div class="main__Activity">
+                <div class="number_of_guests">
+                    <h1>Number of guests</h1>
+                    <div class="number-input">
+                        <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()">-</button>
+                        <input class="quantity" min="0" name="quantity" value="1" type="number">
+                        <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus">+</button>
+                    </div>
+                    <select name="" id="">
+                        <option>0 AM</option>
+                        <option>1 AM</option>
+                        <option>2 AM</option>
+                        <option>3 AM</option>
+                        <option>4 AM</option>
+                        <option>5 AM</option>
+                        <option>6 AM</option>
+                        <option>7 AM</option>
+                        <option>8 AM</option>
+                        <option>10 AM</option>
+                        <option>11 AM</option>
+                        <option>12 AM</option>
+                        <option>1 PM</option>
+                    </select>
+                </div>
+                <div class="input__name__Activity">
+                    <label for="">First Name</label>
+                    <input type="text">
+                </div>
+                <div class="input__name__Activity">
+                    <label for="">Last Name</label>
+                    <input type="text">
+                </div>
+                <div class="email-phone__Activity">
+                    <div>
+                        <label for="">Email</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label for="">Phone Number</label>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="date__picker">
+                    <div class="calendar">
+                        <div class="calendar-header">
+                            <div class="year-picker">
+                                <img class="year-change" id="prev-year" src="./icon/IconDatePrev.svg" alt="">
+                                <span class="year-change" id="next-year">
+                                </span>
+                            </div>
+                            <div class="month-year">
+                                <span class="month-picker" id="month-picker">February</span>
+                                <span id="year">2021</span>
+                            </div>
+                        </div>
+                        <div class="calendar-body">
+                            <div class="calendar-week-day">
+                                <div>Sun</div>
+                                <div>Mon</div>
+                                <div>Tue</div>
+                                <div>Wed</div>
+                                <div>Thu</div>
+                                <div>Fri</div>
+                                <div>Sat</div>
+                            </div>
+                            <div class="calendar-days"></div>
+                        </div>
+                        <div class="month-list"></div>
+                    </div>
+                    <div class="calendar-1">
+                        <div class="calendar-header-1">
+                            <div class="month-year-1">
+                                <span class="month-picker-1" id="month-picker-1">February</span>
+                                <span id="year-1">2021</span>
+                            </div>
+                            <div class="year-picker-1">
+                                <img class="year-change-1" style="display: none;" id="prev-year-1" src="./prev.svg" alt="">
+                                <img class="year-change-1" id="next-year-1" src="./icon/IconDateNext.svg" alt="">
+                                </span>
+                            </div>
+                        </div>
+                        <div class="calendar-body-1">
+                            <div class="calendar-week-day-1">
+                                <div>Sun</div>
+                                <div>Mon</div>
+                                <div>Tue</div>
+                                <div>Wed</div>
+                                <div>Thu</div>
+                                <div>Fri</div>
+                                <div>Sat</div>
+                            </div>
+                            <div class="calendar-days-1"></div>
+                        </div>
+                        <div class="month-list-1"></div>
+                    </div>
+                </div>
+                <div class="huong-dan">
+                    <div class="huong-dan-trang">
+                        <div></div>
+                        <h1>Available</h1>
+                    </div>
+                    <div class="huong-dan-nau">
+                        <div></div>
+                        <h1>Note Available</h1>
+                    </div>
+                    <div class="huong-dan-hom-nay">
+                        <div></div>
+                        <h1>Today</h1>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="book-now-Activity">
+        <a href="../Success/index.html"><button class="booknow-button button-button--large">BOOK NOW</button></a>
+    </div>
+    <div class="Footer">
+        <div class="row__footer">
+            <div class="footer__1">
+                <h1>Stay up date</h1>
+                <div class="from__input__footer">
+                    <input type="text" placeholder="First name">
+                    <input type="text" placeholder="Second name">
+                    <input type="text" placeholder="E-mail address ">
+                    <div class="checkbox__footer">
+                        <input type="checkbox">
+                        <label for="">By accepting this form, you except our
+                            private policy </label>
+                    </div>
+                    <button class="brand-button--large">SEND</button>
+                </div>
+                <div class="contact__footer__1">
+                    <div class="item__contact__footer__1">
+                        <img src="./icon/InstagramFooter.svg" alt="">
+                        <p>Instagram</p>
+                    </div>
+                    <div class="item__contact__footer__1">
+                        <img src="./icon/FacebookFooter.svg" alt="">
+                        <p>Facebook</p>
+                    </div>
+                    <div class="item__contact__footer__1">
+                        <img src="./icon/TripaFooter.svg" alt="">
+                        <p>Tripadvisor</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__2">
+                <div class="row__footer__2">
+                    <div class="item__footer__2__1">
+                        <div>
+                            <img src="./icon/MailFooter.svg" alt="">
+                            <p>info@lavista.vn</p>
+                        </div>
+                        <div>
+                            <img src="./icon/MailFooter.svg" alt="">
+                            <p>+84 123 123 123 </p>
+                        </div>
+                    </div>
+                    <div class="item__footer__2__2">
+                        <a href="">Villa</a>
+                        <a href="">About us</a>
+                        <a href="">Service</a>
+                        <a href="">Contact & Direction</a>
+                    </div>
+                    <div class="item__footer__2__3">
+                        <a href="">Terms</a>
+                        <a href="">Privacy</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__3">
+                <div class="back__to__top">
+                    <img src="./icon/IconBackToTop.svg" alt="">
+                    <div class="outer">
+                        <div id="scrollToTopBtn" class="inner rotate"><a>BACK TO TOP</a></div>
+                    </div>
+                </div>
+                <div class="back__to__top__logo">
+                    <img class="back__to__top__logo-ngoai" src="./image/LogoFooterNgoai.svg" alt="">
+                    <img class="back__to__top__logo-trong" src="./image/LogoFooterTrong.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./javascript/main.js"></script>
+</body>
+
+</html>

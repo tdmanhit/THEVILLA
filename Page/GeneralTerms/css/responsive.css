@@ -1,0 +1,223 @@
+@media screen and (min-width:1800px) {
+    /* HEADER */
+    .Header {
+        font-size: 18px;
+        width: 100%;
+        height: 200px;
+    }
+    .row__header {
+        line-height: 200px;
+        padding-left: 160px;
+        padding-right: 160px;
+        width: 100%;
+        height: 200px;
+    }
+    .grid__header {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+    .menu__header ul li {
+        padding-right: 60px;
+    }
+    .menu__header ul li img {
+        width: 18px;
+        display: inline;
+    }
+    .menu__header ul li a {
+        width: max-content;
+        font-size: 18px;
+    }
+    .logo__header img {
+        width: 205px;
+    }
+    .signin__header div {
+        margin-left: 40px;
+    }
+    .signin__header a {
+        width: max-content;
+        font-size: 18px;
+    }
+    .booknow-button,
+    .booknow-button--large {
+        display: block;
+        position: relative;
+        overflow: hidden;
+        color: #2c312b;
+        font-size: 16px;
+        cursor: pointer;
+        transition: color .2s ease, background-color .2s ease;
+        width: 160px;
+        height: 45px;
+        background: none;
+        cursor: pointer;
+        border: none;
+        border: 1px solid #000;
+    }
+    .booknow-button--large:hover:after,
+    .booknow-button:hover:after {
+        transform: translateY(0);
+    }
+    .booknow-button:hover,
+    .booknow-button--large:hover {
+        line-height: 45px;
+        color: #fff;
+    }
+    .booknow-button--large:after,
+    .booknow-button:after {
+        content: "BOOK NOW";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 160px;
+        height: 45px;
+        background-color: #422D22;
+        transform: translateY(100%);
+        transition: transform .25s ease .15s;
+    }
+    /* DIALOG MENU */
+    .left__modal .menu ul.menu__1 li {
+        text-align: left;
+        list-style: none;
+        margin-bottom: 40px;
+    }
+    .left__modal .menu__1 a {
+        font-family: Casual;
+        font-size: 36px;
+    }
+    .left__modal .menu__1 a:hover {
+        margin-left: 10px;
+    }
+    .left__modal .menu ul.menu__2 li {
+        text-align: left;
+        list-style: none;
+        margin-bottom: 16px;
+    }
+    .left__modal .menu__2 {
+        padding-top: 55px
+    }
+    .left__modal .menu__2 a {
+        font-size: 18px;
+    }
+    .right__modal {
+        position: relative;
+        margin-left: 100px;
+        display: flex;
+        margin-right: 100px;
+        justify-content: space-around;
+        align-items: flex-end;
+        margin-bottom: 80px;
+    }
+    .right__modal p {
+        color: #fff;
+        font-size: 18px;
+    }
+    .item__contact__menu__mp {
+        margin-right: 100px;
+    }
+    .item__contact__menu__mp div {
+        display: flex;
+        margin-top: 20px;
+    }
+    .item__contact__menu__mp div img {
+        margin-right: 20px;
+    }
+    .item__contact__menu {
+        display: flex;
+        align-items: center;
+    }
+    /* Footer */
+    .Footer {
+        height: 730px;
+        width: 100%;
+    }
+    .row__footer {
+        width: 100%;
+        padding-left: 160px;
+        grid-template-columns: 35% 35% 30%;
+    }
+    .footer__1 h1 {
+        margin-bottom: 80px;
+    }
+    .from__input__footer input {
+        width: 300px;
+        font-size: 16px;
+        font-family: 'Poppins';
+    }
+    .checkbox__footer {
+        display: flex;
+        width: 260px;
+    }
+    .checkbox__footer input {
+        width: 30px;
+        height: 30px;
+    }
+    .checkbox__footer label {
+        font-size: 13px;
+        margin-top: -1px;
+    }
+    .brand-button,
+    .brand-button--large {
+        height: 45px;
+        width: 160px;
+        font-size: 14px;
+    }
+    .brand-button--large:after,
+    .brand-button:after {
+        height: 45px;
+        width: 160px;
+        font-size: 14px;
+    }
+    .contact__footer__1 {
+        width: 600px;
+    }
+    .item__contact__footer__1 {
+        font-size: 16px;
+    }
+    .row__footer__2 {
+        justify-content: space-between;
+    }
+    .item__footer__2__1 div {
+        margin-bottom: 40px;
+    }
+    .item__footer__2__1 p {
+        font-size: 20px;
+    }
+    .item__footer__2__1 img {
+        height: 20px;
+    }
+    .item__footer__2__2 a {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .item__footer__2__3 a {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .back__to__top {
+        margin-left: 60px;
+    }
+    .back__to__top .outer {
+        width: 400px;
+    }
+    .back__to__top .inner a {
+        font-size: 20px;
+    }
+    .back__to__top img {
+        margin-bottom: 50px;
+    }
+    .back__to__top__logo {
+        margin-left: 180px;
+        ;
+    }
+    .back__to__top__logo-ngoai {
+        width: 180px;
+        height: 180px;
+    }
+    .back__to__top__logo-trong {
+        width: 80px;
+        height: 80px;
+        margin-top: -130px;
+        margin-left: 80px;
+    }
+}
