@@ -858,6 +858,65 @@ select {
     font-weight: 600;
 }
 
+.discorver__more__Phu__Quoc {
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+@keyframes discorver-more-open {
+    0% {
+        width: 30px;
+    }
+    100% {
+        width: 80px;
+    }
+}
+
+.discorver__more__Phu__Quoc:hover {
+    width: max-content;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #422D22;
+}
+
+.img__discorver {
+    width: 30px;
+    height: 20px;
+    transition: height 2s;
+    -moz-transition: height 2s;
+    -webkit-transition: height 2s;
+    -o-transition: height 2s;
+    transition: width 1s linear;
+    animation: discorver-more-close 1s;
+}
+
+@keyframes discorver-more-open {
+    0% {
+        width: 30px;
+    }
+    100% {
+        width: 80px;
+    }
+}
+
+@keyframes discorver-more-close {
+    0% {
+        width: 80px;
+    }
+    100% {
+        width: 30px;
+    }
+}
+
+.discorver__more__Phu__Quoc:hover .img__discorver {
+    width: 80px;
+    height: 20px;
+    transition: width 1s linear;
+    animation: discorver-more-open 1s;
+}
+
 
 /* Footer */
 
