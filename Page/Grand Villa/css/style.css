@@ -816,6 +816,8 @@ select {
 .infor img {
     float: left;
     margin-top: 10px;
+    width: 630px;
+    height: 455px;
 }
 
 .rise {

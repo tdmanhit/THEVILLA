@@ -1091,6 +1091,199 @@ select {
 }
 
 
+/* ----------------- */
+
+#slideshow {
+    display: none;
+    margin-top: 50px;
+}
+
+#slideshow .content__the__villa p {
+    margin: 20px 0 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: max-content;
+    color: #422D22;
+    font-size: 20px;
+    font-family: 'Casual';
+    padding-bottom: 10px;
+    border-bottom: 2px solid #422d22;
+}
+
+#slideshow .slider {
+    width: 90%;
+    margin: auto;
+    margin-left: 30px;
+}
+
+#slideshow .slick-slide {
+    margin: 0px 20px;
+}
+
+#slideshow .slick-slide img {
+    width: 100%;
+}
+
+#slideshow .slick-prev:before,
+#slideshow .slick-next:before {
+    color: black;
+}
+
+#slideshow .slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: .2;
+}
+
+#slideshow .slick-active {
+    opacity: .5;
+}
+
+#slideshow .slick-current {
+    opacity: 1;
+}
+
+#slideshow .slick-prev,
+#slideshow .slick-next {
+    height: 40px;
+    position: absolute;
+    top: 49%;
+    appearance: none;
+    margin-top: -10px;
+    padding: 0;
+    border: 0;
+    background: none;
+    cursor: pointer;
+    color: transparent;
+    outline: none;
+    z-index: 1000;
+}
+
+#slideshow .slick-prev {
+    left: -2px;
+    width: 30px;
+    background-image: url(../image/TraiNho.png);
+    background-repeat: no-repeat;
+}
+
+#slideshow .slick-next {
+    right: -10px;
+    width: 30px;
+    background-image: url(../image/PhaiNho.png);
+    background-repeat: no-repeat;
+}
+
+
+/* -------------- */
+
+.Slie__image__show {
+    display: none;
+    width: 375px;
+    margin: auto;
+    margin-top: -100px;
+}
+
+.Slie__image__show .content__the__villa p {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: max-content;
+    color: #422D22;
+    font-size: 20px;
+    font-family: 'Casual';
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #422d22;
+}
+
+.Slie__image__show .mySlides {
+    display: none;
+}
+
+.Slie__image__show .mySlides img {
+    width: 375px;
+}
+
+.Slie__image__show .cursor {
+    cursor: pointer;
+}
+
+.Slie__image__show .prev,
+.Slie__image__show .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.Slie__image__show .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.Slie__image__show .prev:hover,
+.Slie__image__show .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.Slie__image__show .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.Slie__image__show .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.Slie__image__show .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.Slie__image__show .row {
+    width: 90%;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Slie__image__show .column {
+    margin-top: 10px;
+    width: 40px;
+    height: 30px;
+}
+
+.Slie__image__show .column img {
+    width: 40px;
+    height: 30px;
+}
+
+.Slie__image__show .demo {
+    opacity: 0.6;
+}
+
+.Slie__image__show .active,
+.Slie__image__show .demo:hover {
+    opacity: 1;
+}
+
+
 /* THE VILLA */
 
 .The__villa {

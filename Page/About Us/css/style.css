@@ -902,6 +902,7 @@ select {
 .The__villa {
     width: 100%;
     margin: auto;
+    margin-top: 30px;
 }
 
 .row__the__villa {
@@ -1153,7 +1154,7 @@ select {
 /* App */
 
 .container {
-    margin-top: 150px;
+    margin-top: 20px;
     position: relative;
     text-align: center;
 }
